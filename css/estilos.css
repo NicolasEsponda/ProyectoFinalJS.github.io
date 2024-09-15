@@ -226,16 +226,29 @@ gap: 2rem;
     border-bottom-right-radius: 1rem;
 }
 
-.header-mobile {
-    display: none;
-}
-
-.close-menu {
-    display: none;
-}
-
 .disabled {
     display: none;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 680px) {
+    .contenedor-productos {
+        grid-template-columns: auto;
+    }
+    .detalles-producto{
+        margin-left: 10rem;
+    }
+    header{
+        grid-template-columns: auto;
+        }
+    ul{
+        flex-direction: column;
+    }
+
+}
+
+
+
 
 
